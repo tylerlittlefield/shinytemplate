@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css?family=Lato&display=swap");
+
+/* header font */
+.main-header .logo {
+  font-family: 'Lato', sans-serif;
+}
+
+/* sidebar font */
+.main-sidebar {
+  font-family: 'Lato', sans-serif;
+}
+
+/* value box font, headers takes care of this also */
+.value-box-text, .value-box-number {
+  font-family: 'Lato', sans-serif;
+}
+
+/* box font */
+.box-header, .box-title {
+  font-family: 'Lato', sans-serif;
+}
+
+/* headers font */
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+  font-family: 'Lato', sans-serif;
+}
+
+/* value box */
+.small-box {
+  border-radius: 6px;
+}

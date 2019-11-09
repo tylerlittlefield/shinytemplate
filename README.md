@@ -14,7 +14,7 @@ when a new project comes along.
 
 ## Structure
 
-We use `ui.R`, `server.R`, and `global.R` instead of a single `app.R`
+I use `ui.R`, `server.R`, and `global.R` instead of a single `app.R`
 file to split the application into smaller pieces. All ui elements are
 prefixed with `ui_`, utility functions are stored in `utils.R`, all R
 code (excluding ui, server, and global) are stored in the R directory.

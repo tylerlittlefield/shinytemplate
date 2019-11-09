@@ -19,7 +19,7 @@ file to split the application into smaller pieces. All ui elements are
 prefixed with `ui_`, utility functions are stored in `utils.R`, all R
 code (excluding ui, server, and global) are stored in the R directory.
 The inst/extdata directory is just a habit I picked up from R packages,
-I stored images and other external data here.
+I store images and other external data here.
 
     #> .
     #> ├── R

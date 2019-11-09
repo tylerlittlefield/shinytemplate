@@ -18,14 +18,89 @@
 /* box font */
 .box-header, .box-title {
   font-family: 'Lato', sans-serif;
+  color: #000;
 }
 
 /* headers font */
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
   font-family: 'Lato', sans-serif;
+  color: #000;
 }
 
 /* value box */
 .small-box {
   border-radius: 6px;
+}
+
+/* value box font color */
+.small-box p {
+  color: #000;
+}
+
+/* background color of value box when color="purple" (override) */
+.bg-purple {
+  background-color: #f6f8fa!important;
+}
+
+/* background color of box when status="primary" (override) */
+.box.box-solid.box-primary>.box-header {
+  background: #f6f8fa;
+  background-color: #f6f8fa;
+}
+
+/* box border */
+.box.box-solid.box-primary {
+  border: 1px solid #f6f8fa;;
+}
+
+/* font awesome icon color */
+.fa, .fas {
+  color: lightgrey;
+}
+
+/* sidebar font awesome icon color */
+.sidebar-menu>li>a>.fa, .sidebar-menu>li>a>.glyphicon, .sidebar-menu>li>a>.ion {
+  width: 20px;
+  color: white;
+}
+
+/* navbar (not including header with title) */
+.skin-blue .main-header .navbar {
+  background-color: #ff644e;
+}
+
+/* navbar (header with title only) */
+.skin-blue .main-header .logo {
+  background-color: #ff644e;
+}
+
+/* navbar header logo when hovered */
+.skin-blue .main-header .logo:hover {
+  background: #cb3018;
+}
+
+/* navbar button when hovered */
+.skin-blue .main-header .navbar .sidebar-toggle:hover {
+  background: #cb3018;
+}
+
+/* background */
+.content-wrapper, .right-side {
+  background-color: #fff;
+}
+
+/* color when hovering over menu item */
+.skin-blue .sidebar-menu>li.active>a, .skin-blue .sidebar-menu>li:hover>a {
+  border-left-color: #ff644e;
+  background: #cb3018;
+  color: #fff;
+}
+
+.skin-blue .left-side, .skin-blue .main-sidebar, .skin-blue .wrapper {
+  background-color: #ff644e;
+}
+
+/* sidebar text color */
+.skin-blue .sidebar a {
+    color: #fff;
 }

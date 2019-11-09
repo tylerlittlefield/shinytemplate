@@ -1,5 +1,5 @@
 dashboard_header <- function() {
   dashboardHeader(
-    title = "shinytemplate!"
+    title = mini_sidebar_title()
   )
 }

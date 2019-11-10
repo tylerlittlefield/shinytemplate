@@ -38,7 +38,16 @@ server <- function(input, output) {
   #' * A basic plot of some data.
   # ----------------------------------------------------------------------------
   output$plot1 <- renderPlot({
-    plot(iris)
+    p <- ggplot(iris, aes(Sepal.Length, fill = Species)) +
+      geom_density(alpha = 0.5) +
+      labs(
+        x = "Sepal Length",
+        y = "Density"
+      ) +
+      scale_y_continuous(expand = expand_scale(mult = c(0, 0.05))) +
+      theme_minimal_hgrid(20)
+
+    p
   })
 
 }

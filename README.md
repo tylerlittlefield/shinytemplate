@@ -7,6 +7,8 @@
 
 <!-- badges: end -->
 
+![](inst/extdata/example-app.png)<!-- -->
+
 An opinionated template for shiny dashboards (work in progress). The
 goal is to collect a bunch of things I commonly use when creating a
 dashboard (CSS, file structure, style, etc.), so I can skip all of this
@@ -33,6 +35,7 @@ I store images and other external data here.
     #> ├── global.R
     #> ├── inst
     #> │   └── extdata
+    #> │       ├── example-app.png
     #> │       └── server-comments.png
     #> ├── server.R
     #> ├── shinytemplate.Rproj

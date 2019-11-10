@@ -36,12 +36,19 @@ I store images and other external data here.
     #> ├── inst
     #> │   └── extdata
     #> │       ├── example-app.png
-    #> │       └── server-comments.png
+    #> │       ├── server-comments.png
+    #> │       └── utility-example.png
     #> ├── server.R
     #> ├── shinytemplate.Rproj
     #> ├── ui.R
     #> └── www
-    #>     └── custom.css
+    #>     ├── android-chrome-192x192.png
+    #>     ├── android-chrome-512x512.png
+    #>     ├── apple-touch-icon.png
+    #>     ├── custom.css
+    #>     ├── favicon-16x16.png
+    #>     ├── favicon-32x32.png
+    #>     └── favicon.ico
 
 ## Comments
 
@@ -60,3 +67,14 @@ described. This can make large server files a bit more manageable if you
 use code folding:
 
 ![](inst/extdata/server-comments.png)<!-- -->
+
+## Utilities
+
+I have a couple utility functions I always use to make a mini sidebar
+and add a favicon to the tab, these are:
+
+  - `enable_mini_sidebar()`
+  - `mini_sidebar_title()`
+  - `enable_favicon()`
+
+![](inst/extdata/utility-example.png)<!-- -->

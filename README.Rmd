@@ -50,3 +50,14 @@ Where a specific component is labeled and individual pieces are described. This 
 knitr::include_graphics("inst/extdata/server-comments.png")
 ```
 
+## Utilities
+
+I have a couple utility functions I always use to make a mini sidebar and add a favicon to the tab, these are:
+
+* `enable_mini_sidebar()`
+* `mini_sidebar_title()`
+* `enable_favicon()`
+
+```{r echo=FALSE}
+knitr::include_graphics("inst/extdata/utility-example.png")
+```

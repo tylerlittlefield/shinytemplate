@@ -61,3 +61,16 @@ I have a couple utility functions I always use to make a mini sidebar and add a 
 ```{r echo=FALSE}
 knitr::include_graphics("inst/extdata/utility-example.png")
 ```
+
+## Usage
+
+This is a personal template but if you'd like to use it you have a couple options.
+
+1. If you have a github button, you can simply fork the repo or hit the "Use this template" button.
+2. Alternatively, you can clone or download the repository.
+
+```{r echo=FALSE}
+knitr::include_graphics("inst/extdata/usage-options.png")
+```
+
+

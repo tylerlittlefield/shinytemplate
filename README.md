@@ -37,6 +37,7 @@ I store images and other external data here.
     #> │   └── extdata
     #> │       ├── example-app.png
     #> │       ├── server-comments.png
+    #> │       ├── usage-options.png
     #> │       └── utility-example.png
     #> ├── server.R
     #> ├── shinytemplate.Rproj
@@ -78,3 +79,14 @@ and add a favicon to the tab, these are:
   - `enable_favicon()`
 
 ![](inst/extdata/utility-example.png)<!-- -->
+
+## Usage
+
+This is a personal template but if you’d like to use it you have a
+couple options.
+
+1.  If you have a github button, you can simply fork the repo or hit the
+    “Use this template” button.
+2.  Alternatively, you can clone or download the repository.
+
+![](inst/extdata/usage-options.png)<!-- -->

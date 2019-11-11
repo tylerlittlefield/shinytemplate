@@ -85,8 +85,8 @@ and add a favicon to the tab, these are:
 This is a personal template but if you’d like to use it you have a
 couple options.
 
-1.  If you have a github button, you can simply fork the repo or hit the
-    “Use this template” button.
+1.  If you have a github account, you can simply fork the repo or hit
+    the “Use this template” button.
 2.  Alternatively, you can clone or download the repository.
 
 ![](inst/extdata/usage-options.png)<!-- -->

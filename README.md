@@ -12,7 +12,8 @@
 An opinionated template for shiny dashboards (work in progress). The
 goal is to collect a bunch of things I commonly use when creating a
 dashboard (CSS, file structure, style, etc.), so I can skip all of this
-when a new project comes along.
+when a new project comes along. See a live demo of the app
+[**here**](https://tylerlittlefield.com/shiny/tyler/shinytemplate/).
 
 ## Structure
 

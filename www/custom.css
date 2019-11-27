@@ -18,13 +18,13 @@
 /* box font */
 .box-header, .box-title {
   font-family: 'Lato', sans-serif;
-  color: #000;
+  color: #FFFFFF;
 }
 
 /* headers font */
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
   font-family: 'Lato', sans-serif;
-  color: #000;
+  color: #FFFFFF;
 }
 
 /* value box */
@@ -34,28 +34,28 @@
 
 /* value box font color */
 .small-box p {
-  color: #000;
+  color: #FFFFFF;
 }
 
 /* background color of value box when color="purple" (override) */
 .bg-purple {
-  background-color: #f6f8fa!important;
+  background-color: #546F8C!important;
 }
 
 /* background color of box when status="primary" (override) */
 .box.box-solid.box-primary>.box-header {
-  background: #f6f8fa;
-  background-color: #f6f8fa;
+  background: #546F8C;
+  background-color: #546F8C;
 }
 
 /* box border */
 .box.box-solid.box-primary {
-  border: 1px solid #f6f8fa;;
+  border: 1px solid #546F8C;
 }
 
 /* font awesome icon color */
 .fa, .fas {
-  color: lightgrey;
+  color: #FFFFFF;
 }
 
 /* sidebar font awesome icon color */
@@ -66,41 +66,41 @@
 
 /* navbar (not including header with title) */
 .skin-blue .main-header .navbar {
-  background-color: #ff644e;
+  background-color: #252D3E;
 }
 
 /* navbar (header with title only) */
 .skin-blue .main-header .logo {
-  background-color: #ff644e;
+  background-color: #252D3E;
 }
 
 /* navbar header logo when hovered */
 .skin-blue .main-header .logo:hover {
-  background: #cb3018;
+  background: #3E475B;
 }
 
 /* navbar button when hovered */
 .skin-blue .main-header .navbar .sidebar-toggle:hover {
-  background: #cb3018;
+  background: #546F8C;
 }
 
 /* background */
 .content-wrapper, .right-side {
-  background-color: #fff;
+  background-color: #3E475B;
 }
 
 /* color when hovering over menu item */
 .skin-blue .sidebar-menu>li.active>a, .skin-blue .sidebar-menu>li:hover>a {
-  border-left-color: #ff644e;
-  background: #cb3018;
-  color: #fff;
+  border-left-color: #252D3E;
+  background: #546F8C;
+  color: #FFFFFF;
 }
 
 .skin-blue .left-side, .skin-blue .main-sidebar, .skin-blue .wrapper {
-  background-color: #ff644e;
+  background-color: #252D3E;
 }
 
 /* sidebar text color */
 .skin-blue .sidebar a {
-    color: #fff;
+    color: #FFFFFF;
 }
